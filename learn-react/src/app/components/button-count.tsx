@@ -5,7 +5,17 @@ import { useState } from "react";
 
 // MyButtonCount component
 function MyButtonCount(){
+    const[count, setCount] = useState("true");
 
+    // function to handle click
+    function handleClick(){
+        if (count == "true"){
+            setCount("false");
+        }
+        if (count == "false"){
+            setCount("true");
+        }
+    }
 
     return(
         <div>

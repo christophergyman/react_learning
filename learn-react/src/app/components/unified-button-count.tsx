@@ -20,7 +20,7 @@ function Parent_Count (){
 
 function MiniButton({count, onClick}){
     return(
-        <button onClick={handleClick} />
+        <button onClick={handleClick}/>
     );
 }
 
